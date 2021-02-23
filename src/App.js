@@ -11,7 +11,7 @@ import GithubState from "./context/github/GithubState";
 import AlertState from "./context/alert/AlertState";
 const App = () => {
   const [alert, setAlert] = useState(null);
-
+  console.log("site pulled from github");
   return (
     <GithubState>
       <AlertState>
